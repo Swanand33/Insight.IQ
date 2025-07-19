@@ -1,4 +1,4 @@
-# 🧠 InsightGenie: AI-Powered Excel Analytics
+# 🧠 Insight.IQ : AI-Powered Excel Analytics
 
 > Transform spreadsheets into executive insights in seconds using GPT-4
 
@@ -138,7 +138,3 @@ python src/main.py
 - **Operations**: Process efficiency optimization
 
 ---
-
-**Built with ❤️ to showcase modern AI/ML engineering skills**
-
-*Perfect for portfolios, interviews, and real business use*

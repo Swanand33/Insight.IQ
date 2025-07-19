@@ -41,6 +41,7 @@ ENV/
 .env
 .env.local
 .env.production
+.env.examples
 
 # Temporary files
 *.tmp
