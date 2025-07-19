@@ -1,25 +1,22 @@
+# Sensitive Files
+.env
+.env.local
+.env.production
+*.env
+
+# API Keys & Secrets
+config.py
+secrets.json
+api_keys.txt
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
+*.egg-info/
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
 # Virtual Environment
 venv/
@@ -27,55 +24,32 @@ env/
 ENV/
 .venv/
 
-# IDE
+# IDE Files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# OS Files
+.DS_Store
+Thumbs.db
 
-# Environment Variables
-.env
-.env.local
-.env.production
-.env.examples
+# Logs
+*.log
+logs/
 
-# Temporary files
+# Temporary Files
 *.tmp
-*.temp
 temp/
 tmp/
 
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Project specific
-uploads/
-downloads/
-output/
-logs/
-*.log
-
-# Test coverage
-htmlcov/
-.coverage
-.pytest_cache/
-.tox/
-
-# Data files (large)
+# Large Data Files
 *.xlsx
-*.xls
 *.csv
 !examples/*.xlsx
 !examples/*.csv
-!tests/sample_data/*.xlsx
-!tests/sample_data/*.csv
+
+# Output Files
+output/
+downloads/
+uploads/
